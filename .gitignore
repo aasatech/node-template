@@ -11,4 +11,5 @@ storages/*
 tmp/*
 .DS_Store
 yarn-error.log
-shopify.db
+public/javascripts/
+public/stylesheets/
