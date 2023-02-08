@@ -72,7 +72,7 @@ app.use(
 app.use(express.json());
 app.use(params.expressMiddleware());
 app.set("views", path.join(__dirname, "./app/views"));
-app.set("view engine", "jade");
+app.set("view engine", "pug");
 app.use(session(sessionOptions));
 app.use(cookieParser(process.env.SECRET_KEY_BASE));
 app.use(flash());
