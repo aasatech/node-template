@@ -80,6 +80,9 @@
     "js:production": "webpack --config webpack.prod.js",
     "css:production": "node-sass src/app/assets/stylesheets/style.scss public/stylesheets/style.css --output-style compressed",
     "route:list": "babel-node src/route_list.js",
-    "watch:css": "npx tailwindcss -i src/app/assets/stylesheets/base_tailwind.css -o public/stylesheets/tailwind.css --watch"
+    "watch:css": "npx tailwindcss -i src/app/assets/stylesheets/base_tailwind.css -o public/stylesheets/tailwind.css --watch",
+    "migrate": "knex migrate:latest",
+    "rollback": "knex migrate:rollback",
+    "seed": "knex seed:run"
   }
 }
