@@ -11,5 +11,5 @@ storages/*
 tmp/*
 .DS_Store
 yarn-error.log
-public/javascripts/
-public/stylesheets/
+public/javascripts/*
+public/stylesheets/*
